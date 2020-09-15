@@ -1,0 +1,395 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    height: 100%;
+    /* width: 100%; */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+/* navigation start */
+.navigation{
+    font-size: 2rem;
+    display: flex;
+    padding:  1rem 20rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+    z-index: 1;
+    background-color: rgba(231, 231, 230, 0.877);
+    color: black;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.navright ul{
+    display: flex;
+    list-style: none;
+}
+.navright ul li{
+    margin:0 1rem;
+    padding: 0 1rem;
+}
+.navright ul li a{
+    text-decoration: none;
+    text-shadow:  -1px -1px 4px black;
+    font-style: bold;
+    color:white;
+}
+.brandname{
+    font-size: 2.5rem;
+    color: black;
+    text-shadow: 1px 1px 1px red;
+}
+.navright ul li :hover {
+    color:red;
+    text-shadow:  1px 1px 1px black;
+}
+/* navigation end */
+section{
+    align-items: center;
+    /* width: 100%; */
+    height: 100vh;
+}
+/* home start */
+#home{
+    background-image: url("../img/bg.jpg"); 
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 40rem 0 0 20rem;
+    width: 100%;
+}
+.homecontent{
+    padding: 1rem;
+    border-left: 2px solid red;
+}
+.h1{
+    font-size: 3rem;
+}
+.h2{
+    font-size: 2rem;
+    color: white;
+}
+.h3{
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px white;
+}
+.h4{
+    font-size: 3rem;
+    text-shadow: 2px -2px 2px orange;
+}
+/* home end */
+
+/* about start */
+#about{
+    padding-top: 2em;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.aboutcontent{
+    padding-left: 20rem;
+}
+.aboutsection{
+    display: flex;
+    margin-top: 4rem;
+}
+.aboutimg img{
+    height: 50rem;
+    width: 35rem;
+    border-radius: 10px;
+    border: solid 1px red;
+}
+.aboutinfoheading{
+    margin:0 10rem 0 30rem;
+    font-size: 2rem;
+}
+.h5{
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px red;
+}
+.h6{
+    margin-top: 3rem;
+}
+.aboutinfo{
+    margin-top: 2rem;
+    display: inline-block;
+    justify-content: center;
+}
+.section1 h3 ,.section2 h3{
+    padding-top: 1rem;
+}
+.socialicon{
+    font-size: 3rem;
+    background: rgba(231, 231, 230, 0.877);
+    text-align: center;
+    margin-top: 1rem;
+    border: solid 1px black;
+    border-radius: 2rem;
+}
+.fab{
+    padding: .5rem;
+    text-shadow: 2px 2px 1px black , -2px -2px 3px black;
+    color: white;
+}
+.fa-facebook:hover{
+    color: blue;
+    text-shadow: 1px 1px 3px black;
+}
+.fa-instagram:hover{
+    color: orangered;
+    text-shadow: 1px 1px 3px black;
+}
+.fa-whatsapp:hover{
+    color: green;
+    text-shadow: 1px 1px 3px black;
+}
+.fa-github:hover{
+    color: black;
+    text-shadow: 1px 1px 3px black;
+}
+/* about end */
+
+/* services start */
+#services{@media only screen and (max-width:900px)
+    padding-top: 2em;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: rgba(231, 231, 230, 0.877);
+}
+.h7{
+    font-size: 4rem;
+    padding: .1rem;
+    text-shadow: 1px 1px 4px orangered;
+    display: inline-block;
+    border-bottom: 2px solid black;
+}
+.servicescontent{
+    text-align: center;
+    padding-left: 2rem;
+}
+.box{
+    height: 13vh;
+    width: 100%;
+    background-color: white;
+    margin: 1rem 1rem 1rem 0;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.servicessection{
+    
+    justify-content: space-evenly;
+}
+/* services end */
+
+/* portfolio start */
+#portfolio{
+    padding-top: 2em;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: black;
+}
+.portfoliocontent{
+    padding: 0 20rem;
+}
+.h8{
+    color: white;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px red;
+    border-left: 2px solid red;
+    padding-left: 1rem;
+}
+.h9{
+    font-size: 2rem;
+    padding-left: 1rem;
+    border-left: 2px solid red;
+    color: white;
+}
+.skillimg img{
+    height: 50rem;
+    width: 35rem;
+    border-radius: 10px;
+    border: solid 1px red;
+}
+.skillh1{
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 4px blue;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.sh1{
+    color: white;
+    font-size: 2rem;
+    width: 80%;
+    border-bottom: 2px solid orangered;
+}
+
+.sh2{
+    color: white;
+    font-size: 2rem;
+    width: 70%;
+    border-bottom: 2px solid orangered;
+}
+.sh3{
+    color: white;
+    font-size: 2rem;
+    width: 60%;
+    border-bottom: 2px solid orangered;
+}
+.sh4{
+    color: white;
+    font-size: 2rem;
+    width: 70%;
+    border-bottom: 2px solid orangered;
+}
+.sh5{
+    color: white;
+    font-size: 2rem;
+    width: 75%;
+    border-bottom: 2px solid orangered;
+}
+.sh6{
+    color: white;
+    font-size: 2rem;
+    width: 50%;
+    border-bottom: 2px solid orangered;
+}
+.sh7{
+    color: white;
+    font-size: 2rem;
+    width: 40%;
+    border-bottom: 2px solid orangered;
+}
+.portfoliosection{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+.skillset{
+    
+    width: 60rem;
+}
+
+/* portfolio end */
+
+/* worksample start */
+#worksample{
+    padding-top: 2em;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.worksamplecontent{
+    padding: 0 20rem;
+}
+.worksamplesection{
+    justify-content: center;
+}
+.videobox video{
+    height: 18vh;
+    width: 30rem;
+    border: 1px solid red;
+}
+.video{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: .5rem;
+}
+.video1discription{
+    width: 50%;
+    border-bottom: 1px solid red;
+}
+.h10{
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+button a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: green;
+    padding: 1rem;
+}
+button:hover{
+    box-shadow: 2px -2px 2px red , -2px 2px 2px blue;
+}
+/* worksample end */
+/* contact start */
+#contact{
+    padding-top: 2em;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: black;
+}
+.contactcontent{
+    padding: 1rem 20rem;
+    color: white;
+}
+.form {
+    font-size: 2rem;
+}
+.input{
+    width: 50%;
+    padding: .5rem;
+    box-shadow: 2px 2px 2px blue , -2px -2px 4px white;
+    font-size: 2rem;
+}
+.contactsection{
+    margin: 10rem auto;
+ 
+}
+#submitbtn{
+    width: 100%;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 1rem;
+    box-shadow: 1px 1px 4px yellowgreen;
+}
+#submitbtn:hover{
+    box-shadow: -2px -2px 4px red;
+    cursor: pointer;
+    background-color: gray;
+}
+/* contact end */
+/* footer start */
+.footer{
+    border-top: 1px solid white;
+    font-size: 2rem;
+    width: 100%;
+    height:10vh;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.git:hover{
+    background-color: white;
+}
+/* footer end */
+nav .closemenu {
+    display: none;
+    font-size: 2rem;
+    justify-content: center;
+    color: red;
+    cursor: pointer;
+}
+.openmenu{
+    display: none;
+    font-size: 3rem;
+    justify-content: center;
+    cursor: pointer;
+    color: red;
+    margin: 0 4rem;
+}

@@ -1,0 +1,209 @@
+@media only screen and (max-width:1400px){
+    html{
+        font-size: 55%;
+    }
+}
+@media only screen and (max-width:1200px){
+    .aboutcontent{
+        padding-left: 5rem;
+    }
+    .aboutsection{
+        margin-top: 1rem;
+    }
+    .portfoliocontent{
+        padding: 5rem;
+    }
+    .skillh1{
+        margin-bottom: 1rem;
+    }
+    .portfoliosection{
+        padding: .5rem;
+    }
+    .worksamplecontent{
+        padding: 0 5rem;
+    }
+    .contactcontent{
+        padding: 1rem 5rem;
+    }
+    .aboutinfoheading{
+        margin: 0 4rem 0 6rem;
+    }
+    .navigation{
+        padding: 1rem 10rem;  
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .navigation{
+        padding: 1rem 5rem;
+        width: 95%;
+    }
+    .aboutinfoheading{
+        margin: 0 2rem 0 3rem;
+    }
+    .skillimg img{
+        height: 45rem;
+    }
+}
+@media only screen and (max-width:900px){
+    html{
+        font-size: 50%;
+    }
+    .aboutsection{
+        margin-top: 6rem;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .skillimg img{
+        height: 50rem;
+    }
+}
+@media only screen and (max-width:704px){
+    .video1discription{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:650px){
+    html{
+        font-size: 45%;
+    }
+    .aboutsection{
+        flex-direction: column;
+    }
+    .aboutimg img{
+        height: 30rem;
+        width: 30rem;
+        border-radius: 50%;
+    }
+    .aboutinfo{
+        display: flex;
+        justify-content: space-around;
+    }
+    .aboutimg{
+        text-align: center;
+    }
+    .aboutinfoheading{
+        margin: 0 ;
+    }
+    .navright{
+        height: 40vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column-reverse;
+        align-items: center;
+        background-color: black;
+        transition: top 1s ease;
+        display: none;
+        text-align: center;
+        border-bottom: solid white 2px;
+        border-bottom-left-radius:1rem ;
+        border-bottom-right-radius:1rem ;
+    }
+    .navright .closemenu{
+        display: block;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+    }
+    .closemenu{
+        display: block;
+        
+    }
+    nav .openmenu{
+        display: block; 
+        
+    }
+    .navright ul{
+        flex-direction: column;
+    }
+    .navright ul {
+        padding: 10rem;
+        font-size: 3rem;
+    }
+    
+    
+    
+}
+@media only screen and (max-width:550px){
+    .aboutcontent{
+        padding-left: 1rem;
+    }
+    .portfoliocontent{
+        padding:  0 1rem;
+    }
+    .worksamplecontent{
+        padding: 0 1rem;
+    }
+    .portfoliosection{
+        flex-direction: column-reverse;
+    }
+    .skillimg img{
+        height: 30rem;
+        width: 30rem;
+        border-radius: 50%;
+    }
+    .skillimg{
+       text-align: center;
+    }
+    .aboutimg img{
+        height: 25rem;
+        width: 25rem;
+        border-radius: 50%;
+    }
+    #portfolio{
+        height: 120vh;
+    }
+    #contact{
+        height: 80vh;
+    }
+    .aboutinfo{
+        flex-direction: column;
+    }
+    #about{
+        height: 110vh;
+    }
+}
+@media only screen and (max-width:480px){
+    
+    #worksample{
+        height: 110vh;
+    }
+    .videobox video{
+        width: 20rem;
+    }
+    #about{
+        height: 115vh;
+    }
+    #services{
+        height: 125vh;
+    }
+    .box{
+        height: 18vh;
+    }
+    
+}
+@media only screen and (max-width:385px){
+    .video{
+        flex-direction: column;
+    }
+    .video1discription{
+        width: 100%;
+    }
+    .video video{
+        width: 90%;
+        height: 15vh;
+    }
+    #worksample{
+        height: 160vh;
+    }
+    #home{
+        padding:40rem 0 0 2rem;
+    }
+}
+
+
